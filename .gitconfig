@@ -1,0 +1,21 @@
+[init]
+	defaultBranch = main
+[user]
+	email = %EMAIL%
+	name = %NAME%
+[core]
+    editor = vim --wait
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    type = cat-file -t
+    dump = cat-file -p
+    last = log -1 HEAD --stat
+    unstage = reset HEAD --
+    amend = commit -a --amend
+    undo = reset HEAD~1 --mixed
+    rollback = reset --hard
+    wipe = clean -dfx
