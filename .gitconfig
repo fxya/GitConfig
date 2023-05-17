@@ -1,8 +1,8 @@
 [init]
-	defaultBranch = main
+    defaultBranch = main
 [user]
-	email = %EMAIL%
-	name = %NAME%
+    email = %EMAIL%
+    name = %NAME%
 [core]
     editor = vim --wait
 [alias]
